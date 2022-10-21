@@ -1,0 +1,19 @@
+{
+  "name": "cy_jenkins",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run --reporter mochawesome --reporter-options reportDir=reports,reportFilename=report"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emptyglitch/cy_jenkins.git"
+  },
+  "author": "aevcehnko",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.7.0",
+    "mochawesome": "^7.1.3"
+  }
+}
