@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "cypress run --browser chrome",
+    "test": "cypress run --browser electron",
     "test:part1": "cypress run --reporter mochawesome --reporter-options reportDir=reports,reportFilename=report"
   },
   "repository": {
